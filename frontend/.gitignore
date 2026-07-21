@@ -1,0 +1,70 @@
+# =============================================
+# MARAM MANAGER — FRONTEND .gitignore
+# React + Vite
+# =============================================
+
+# === Dependencies ===
+node_modules/
+.pnp
+.pnp.js
+
+# === Build Output ===
+dist/
+dist-ssr/
+build/
+out/
+
+# === Environment variables (NEVER commit) ===
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+
+# === Vite cache ===
+.vite/
+vite.config.js.timestamp-*
+
+# === Logs ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Coverage & Testing ===
+coverage/
+.nyc_output/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# === OS files ===
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Editor / IDE ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# === TypeScript (if added later) ===
+*.tsbuildinfo
+
+# === Storybook (if added later) ===
+storybook-static/
+
+# === Miscellaneous ===
+*.local
+.cache/
+tmp/
+temp/

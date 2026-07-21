@@ -1,0 +1,68 @@
+# =============================================
+# MARAM MANAGER — BACKEND .gitignore
+# Node.js + Express + MongoDB
+# =============================================
+
+# === Dependencies ===
+node_modules/
+.pnp
+.pnp.js
+
+# === Environment variables (NEVER commit these) ===
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+
+# === Logs ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Build / Output ===
+dist/
+build/
+out/
+
+# === Runtime / Process ===
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# === Coverage & Testing ===
+coverage/
+.nyc_output/
+junit.xml
+
+# === OS files ===
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Editor / IDE ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# === MongoDB local dumps ===
+*.bson
+dump/
+
+# === Miscellaneous ===
+*.local
+.cache/
+tmp/
+temp/
