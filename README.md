@@ -48,9 +48,7 @@ npm run dev
 npm run seed
 ```
 
-**Default manager credentials after seeding:**
-- Phone: `9999999999`
-- Password: `manager123`
+
 
 ### 2. Frontend Setup
 
